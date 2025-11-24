@@ -65,7 +65,7 @@ img {
 }
 
 .content {
-  height: 70vh;
+  height: 73vh;
   width: 384px;
   border-radius: 10px;
   background: hsl(0, 0%, 12%);
@@ -78,7 +78,7 @@ img {
 .buttonsBox {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  
   height: 45%;
   margin-top: 24px;
   flex: 1;
@@ -110,6 +110,7 @@ P {
 
 button {
   height: 45px;
+  width: 279px;
   background-color:hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
     font-family: "Inter", sans-serif;
@@ -122,3 +123,15 @@ button:hover {
   background-color: hsl(75, 94%, 57%) ;
 }
 
+@media (min-width: 600px) and (max-width: 1024px) {
+  .content {
+    height: 611px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: 327px;
+    height: 579px;
+  }
+}
